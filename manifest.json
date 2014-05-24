@@ -10,10 +10,7 @@
 	},
 	"externally_connectable": {
 		"matches": ["https://codeanywhere.com/editor/"],
-		"js": [
-			"js/jquery-1.11.0.min.js",
-			"js/main.js"
-		],
+		"js": ["js/main.js"],
 		"run_at": "document_start"
 	},
 	"icons": {
