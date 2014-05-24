@@ -1,0 +1,23 @@
+{
+	"name": "CodeAnywhere - Chrome Desktop App",
+	"version": "0.2",
+	"description": "This is so I can launch CodeAnywhere from the Chrome App Launcher as a windowed app",
+	"manifest_version": 2,
+	"app": {
+		"background": {
+			"scripts": ["app.js"]
+		}
+	},
+	"externally_connectable": {
+		"matches": ["https://codeanywhere.com/editor/"],
+		"js": [
+			"js/jquery-1.11.0.min.js",
+			"js/main.js"
+		],
+		"run_at": "document_start"
+	},
+	"icons": {
+		"64": "favicon.png"
+	},
+	"permissions": ["storage", "webview"]
+}
