@@ -1,7 +1,6 @@
-unofficialcodeanywherechromeapp
+Unofficial Chrome Desktop App for Codeanywhere
 ===============================
 
-## Unofficial Chrome Desktop App for Codeanywhere 
 
 I created this because I love Codeanywhere's Cloud IDE, but I hate losing the small real estate from the bookmarks, URL, and tabs.
 I will actively maintain this as long as necessary.  Codeanywhere says they are working on a chrome app themselves.  Once released I probably stop maintaining this.
